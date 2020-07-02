@@ -1,3 +1,7 @@
 <form (submit)="onFormSubmit($event)">
-  <input (input)="term = $event.target.value" type="text">
+  <div class="field">
+    <div class="control">
+      <input class="input" (input)="term = $event.target.value" type="text">
+    </div>
+  </div>
 </form>
